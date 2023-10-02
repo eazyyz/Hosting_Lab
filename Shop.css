@@ -1,0 +1,126 @@
+@font-face {
+    font-family: raleway;
+    font-weight: normal;
+    font-style: normal;
+    src: url(ttf/Raleway-Medium.ttf);
+}
+
+.high {
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bird {
+    width: 450px;
+}
+
+.img-logo {
+    width: 35px;
+    height: 35px;
+    margin-top: -2%;
+}
+
+.logo_text {
+    color: purple;
+    font-family: raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.high_right {
+    display: inline-flex;
+    gap: 60px;
+    margin-right: 5%;
+}
+
+.cart {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.high_text {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.center_text {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    /* 66px */
+}
+
+.ink {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.high_center {
+    display: flex;
+    width: 100%;
+    height: 620px;
+    padding: 0px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.conteiner-logo {
+    margin-left: 165px;
+}
+
+.high_right>a {
+    text-decoration: none;
+}
+.center_under_text{
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    display: flex;
+    width: 100%;
+    height: 620px;
+    padding: 0px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
